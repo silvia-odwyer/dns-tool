@@ -53,18 +53,18 @@ This tool bundles Python dependencies (dnspython, requests, etc.) into a **singl
 ### Linux
 
 1. **Download** the `dnstool` binary from the [GitHub Releases](../../releases).
-2. **Make it executable**:
+2. **Make the binary executable**:
    ```bash
    chmod +x dnstool
-   ./dnstool
-Run:
-
+Run the tool:
 bash
 Copy
 ./dnstool
-Or move it to /usr/local/bin to run dnstool anywhere.
-
-Note: This binary was built on Kali Linux. It typically works on other recent Debian/Ubuntu-based distros (and possibly more), assuming they have a compatible glibc. If you get errors about GLIBC_2.x not found, you may need a newer distro or compile from source.
+Optional: Move the binary to a directory in your PATH (e.g., /usr/local/bin) to run it from anywhere:
+bash
+Copy
+sudo mv dnstool /usr/local/bin
+Now, you should be able to run dnstool directly from any directory without having to prefix it with ./.
 
 macOS
 Download the dnstool_macos (or similarly named) file from Releases.
