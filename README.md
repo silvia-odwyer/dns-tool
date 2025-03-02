@@ -56,6 +56,7 @@ This tool bundles Python dependencies (dnspython, requests, etc.) into a **singl
 2. **Make it executable**:
    ```bash
    chmod +x dnstool
+   ./dnstool
 Run:
 
 bash
