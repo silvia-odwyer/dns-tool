@@ -32,8 +32,15 @@ That’s why **DNS Tool** (originally called **DNS Scout**) was born:
 Now, whether I’m verifying a domain has `p=reject` for DMARC or ensuring MTA-STS is properly configured, I can run one command (or open one interactive prompt) and see everything. That’s the power of **DNS Tool**—born out of necessity, to unify the multiple DNS checks I performed every day.
 
 In short: I was tired of flipping between a half-dozen DNS utilities, so I built one that does it all, with just a single command.
+### Example Output
 
-## DNS Tool (Python Edition)
+This is an example of the output you can expect when running `dnstool`:
+
+![Example Output](docs/images/dnstool_output.png)
+
+The output highlights key DNS and email security checks, such as missing SPF records and invalid DMARC policies.
+
+#### DNS Tool (Python Edition)
 
 A powerful, all-in-one DNS diagnostic and RDAP lookup utility, with:
 
@@ -48,9 +55,9 @@ This tool bundles Python dependencies (dnspython, requests, etc.) into a **singl
 
 ---
 
-## Download & Run
+##### Download & Run
 
-### Linux
+###### Linux
 
 1. **Download** the `dnstool` binary from the [GitHub Releases](../../releases).
 2. **Make the binary executable**:
@@ -66,7 +73,7 @@ Copy
 sudo mv dnstool /usr/local/bin
 Now, you should be able to run dnstool directly from any directory without having to prefix it with ./.
 
-macOS
+####### macOS
 Download the dnstool_macos (or similarly named) file from Releases.
 By default, macOS Gatekeeper may block it (since it’s unsigned). Two ways to allow it:
 
@@ -85,7 +92,7 @@ xattr -r -d com.apple.quarantine ./dnstool_macos
 ./dnstool_macos
 That's it! Arrow-key history and color output should work just like Linux.
 
-Windows
+######## Windows
 Download the dnstool.exe from Releases.
 Run the .exe binary in Command Prompt / PowerShell:
 powershell
@@ -93,7 +100,7 @@ Copy
 .\dnstool.exe
 Because it’s not code-signed, Windows SmartScreen may show “Publisher cannot be verified.” Click More info → Run anyway.
 
-Usage
+######### Usage
 Interactive Mode
 Just run dnstool (or the .exe/macOS binary with no arguments):
 
@@ -136,7 +143,7 @@ Copy
 ./dnstool -v example.com
 You’ll get extra [DEBUG] lines (like which RDAP endpoints it tries, DNS query timeouts, etc.).
 
-Help/Usage
+######### Help/Usage
 bash
 Copy
 ./dnstool -h
