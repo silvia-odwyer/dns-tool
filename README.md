@@ -35,7 +35,7 @@ In short: I was tired of flipping between a half-dozen DNS utilities, so I built
 ### Example Output
 
 This is an example of the output you can expect when running `dnstool`:
-A purposfully horrible domain dns record monstrico.com
+A  purposefully horrible domain dns record monstrico.com
 ![Example Output](Screenshot-Output.png)
 ![Example Output](Screenshot-Output2.png)
 
