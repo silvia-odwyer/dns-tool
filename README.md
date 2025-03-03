@@ -41,7 +41,7 @@ A purposfully horrible domain dns record monstrico.com
 
 A Correct domain:
 
-![Example Output](Screenshot-Output2.png)
+![Example Output](Screenshot-Output3.png)
 
 The output highlights key DNS and email security checks, such as missing SPF records and invalid DMARC policies.
 
