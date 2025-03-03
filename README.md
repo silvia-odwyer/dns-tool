@@ -35,9 +35,10 @@ In short: I was tired of flipping between a half-dozen DNS utilities, so I built
 ### Example Output
 
 This is an example of the output you can expect when running `dnstool`:
-
+A purposfully horrible domain dns record monstrico.com
 ![Example Output](Screenshot-Output.png)
 ![Example Output](Screenshot-Output2.png)
+A Correct domain:
 ![Example Output](Screenshot-Output3.png)
 ![Example Output](Screenshot-Output4.png)
 
