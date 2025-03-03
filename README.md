@@ -38,7 +38,8 @@ This is an example of the output you can expect when running `dnstool`:
 
 ![Example Output](Screenshot-Output.png)
 ![Example Output](Screenshot-Output2.png)
-
+![Example Output](Screenshot-Output3.png)
+![Example Output](Screenshot-Output4.png)
 
 The output highlights key DNS and email security checks, such as missing SPF records and invalid DMARC policies.
 
