@@ -38,8 +38,10 @@ This is an example of the output you can expect when running `dnstool`:
 A purposfully horrible domain dns record monstrico.com
 ![Example Output](Screenshot-Output.png)
 ![Example Output](Screenshot-Output2.png)
+
 A Correct domain:
 
+![Example Output](Screenshot-Output2.png)
 
 The output highlights key DNS and email security checks, such as missing SPF records and invalid DMARC policies.
 
