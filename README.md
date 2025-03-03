@@ -36,7 +36,7 @@ In short: I was tired of flipping between a half-dozen DNS utilities, so I built
 
 This is an example of the output you can expect when running `dnstool`:
 
-![Example Output](docs/images/dnstool_output.png)
+![Example Output](Screenshot-Output.png)
 
 The output highlights key DNS and email security checks, such as missing SPF records and invalid DMARC policies.
 
